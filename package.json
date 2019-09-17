@@ -1,0 +1,24 @@
+{
+  "name": "vmark-nuxt",
+  "version": "1.0.0",
+  "description": "My beautiful Nuxt.js project",
+  "author": "ChangJoo Park",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "frontmatter-markdown-loader": "^2.1.0",
+    "nuxt": "^2.0.0",
+    "nuxt-i18n": "^6.2.1"
+  },
+  "devDependencies": {
+    "front-matter-markdown": "^0.4.3",
+    "recursive-readdir": "^2.2.2",
+    "vmark": "^1.1.0",
+    "vmark-loader": "^1.0.0"
+  }
+}
